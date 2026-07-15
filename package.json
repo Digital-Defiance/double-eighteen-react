@@ -1,6 +1,6 @@
 {
   "name": "double-eighteen-react",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "React components for double-eighteen — dominoes, trains, and the Mexican Train hub. Headless rules/AI/layout live in the double-eighteen package.",
   "license": "MIT",
   "author": "Digital Defiance, Jessica Mulein",

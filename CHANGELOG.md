@@ -4,6 +4,13 @@ All notable changes to `double-eighteen-react` are documented here. This project
 adheres to [Semantic Versioning](https://semver.org/) and the format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.4.3] - 2026-07-14
+
+### Changed
+
+- Peer dependency floor raised to `double-eighteen >=0.4.2`.
+- Docs: README now credits the production consumer **[Warp 12](https://warp12.app)**.
+
 ## [0.4.0] - 2026-07-14
 
 ### Added

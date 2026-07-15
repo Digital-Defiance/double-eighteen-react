@@ -12,6 +12,8 @@ React components for [`double-eighteen`](https://www.npmjs.com/package/double-ei
 
 All game rules, AI, and layout/geometry math live in the headless **`double-eighteen`** package. This package is purely the React rendering layer and depends on it.
 
+**In production:** these components render the live board in **[Warp 12](https://warp12.app)** — federation-themed multi-trail dominoes for web, desktop (Tauri), and mobile.
+
 ```bash
 npm install double-eighteen double-eighteen-react react react-dom
 ```
