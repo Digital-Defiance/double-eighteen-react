@@ -1,6 +1,6 @@
 {
   "name": "double-eighteen-react",
-  "version": "0.4.0",
+  "version": "0.4.2",
   "description": "React components for double-eighteen — dominoes, trains, and the Mexican Train hub. Headless rules/AI/layout live in the double-eighteen package.",
   "license": "MIT",
   "author": "Digital Defiance, Jessica Mulein",
@@ -64,7 +64,7 @@
     "pack:dry-run": "npm pack --dry-run"
   },
   "peerDependencies": {
-    "double-eighteen": ">=0.4.0",
+    "double-eighteen": ">=0.4.2",
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0"
   },
@@ -77,7 +77,7 @@
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^6.0.0",
     "@vitest/coverage-v8": "~4.1.0",
-    "double-eighteen": "^0.4.0",
+    "double-eighteen": "^0.4.2",
     "eslint": "^9.8.0",
     "eslint-config-prettier": "^10.0.0",
     "eslint-plugin-react": "7.35.0",
