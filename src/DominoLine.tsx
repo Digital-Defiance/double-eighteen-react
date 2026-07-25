@@ -24,6 +24,13 @@ export interface DominoLineProps {
   /** Optional highlight of playable ends (accessibility / UI). */
   highlightEnds?: readonly LineEndId[];
   onEndActivate?: (end: LineEndId) => void;
+  /**
+   * Accessible name for an end control. Composed boards (nested hubs) must
+   * override this, otherwise every hub announces the same four end names.
+   */
+  endLabel?: (end: LineEndId) => string;
+  /** Accessible name for the whole line group. */
+  groupLabel?: string;
 }
 
 function isDouble(tile: DominoValue): boolean {
@@ -40,6 +47,8 @@ export const DominoLine: FC<DominoLineProps> = ({
   maxPips = 6,
   highlightEnds,
   onEndActivate,
+  endLabel,
+  groupLabel = 'Classic domino line',
 }) => {
   const layout = useMemo(
     () =>
@@ -59,7 +68,7 @@ export const DominoLine: FC<DominoLineProps> = ({
     <div
       style={{ position: 'relative', width: '100%', height: '100%' }}
       role="group"
-      aria-label="Classic domino line"
+      aria-label={groupLabel}
     >
       {center ? (
         <div
@@ -139,7 +148,7 @@ export const DominoLine: FC<DominoLineProps> = ({
             {onEndActivate && highlight.has(arm.end) ? (
               <button
                 type="button"
-                aria-label={`Play on ${arm.end} end`}
+                aria-label={endLabel?.(arm.end) ?? `Play on ${arm.end} end`}
                 data-no-pan
                 onPointerDown={(event) => {
                   // Keep TableViewport from treating this as a pan start.
