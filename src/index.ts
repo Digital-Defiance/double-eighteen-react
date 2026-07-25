@@ -16,6 +16,7 @@ export type { DoubleTwelveProps } from './DominoSetPresets';
 export { MexicanTrainGame } from './MexicanTrainGame';
 export { DominoHub } from './DominoHub';
 export { DominoTrain } from './DominoTrain';
+export { DominoLine } from './DominoLine';
 export { DominoThemeProvider, useDominoTheme } from './DominoThemeContext';
 export type { DominoThemeProviderProps } from './DominoThemeContext';
 export { DefaultPip } from './DefaultPip';

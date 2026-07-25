@@ -27,6 +27,11 @@ interface DominoTrainProps {
   layoutStyle: 'offset' | 'linear';
   pipColors?: PipColorMap;
   maxPips?: number;
+  /**
+   * Distance from (startX, startY) to the center of the first tile along the
+   * train direction. Omit for the default hub gap (0.3 × tile height).
+   */
+  leadGap?: number;
 }
 
 export const DominoTrain: FC<DominoTrainProps> = ({
@@ -37,6 +42,7 @@ export const DominoTrain: FC<DominoTrainProps> = ({
   layoutStyle,
   pipColors,
   maxPips = 18,
+  leadGap,
 }) => {
   // Guard rail: a train must be a sequentially-correct chain (like-values
   // touching, toes connecting to their double). Rather than silently drawing a
@@ -65,6 +71,7 @@ export const DominoTrain: FC<DominoTrainProps> = ({
           angle,
           branch: { dominoes: trainData.dominoes, feet: trainData.feet },
           layoutStyle,
+          leadGap,
         })
       ),
     [
@@ -74,6 +81,7 @@ export const DominoTrain: FC<DominoTrainProps> = ({
       trainData.dominoes,
       trainData.feet,
       layoutStyle,
+      leadGap,
     ]
   );
 
