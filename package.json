@@ -27,6 +27,8 @@
   "keywords": [
     "dominoes",
     "mexican-train",
+    "interstellar-dominoes",
+    "double-six",
     "double-nine",
     "double-twelve",
     "double-fifteen",
@@ -35,7 +37,13 @@
     "components",
     "game",
     "board-game",
-    "chicken-foot"
+    "chicken-foot",
+    "warp",
+    "warp-6",
+    "warp-9",
+    "warp-12",
+    "warp-15",
+    "warp-18"
   ],
   "repository": {
     "type": "git",
