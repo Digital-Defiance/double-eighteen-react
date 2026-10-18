@@ -1905,7 +1905,7 @@ __metadata:
     "@types/react-dom": "npm:^19.0.0"
     "@vitejs/plugin-react": "npm:^6.0.0"
     "@vitest/coverage-v8": "npm:~4.1.0"
-    double-eighteen: "npm:^0.4.2"
+    double-eighteen: "npm:^0.5.0"
     eslint: "npm:^9.8.0"
     eslint-config-prettier: "npm:^10.0.0"
     eslint-plugin-react: "npm:7.35.0"
@@ -1921,16 +1921,16 @@ __metadata:
     vite-plugin-dts: "npm:~4.5.0"
     vitest: "npm:~4.1.0"
   peerDependencies:
-    double-eighteen: ">=0.4.2"
+    double-eighteen: ">=0.5.0"
     react: ">=18.0.0"
     react-dom: ">=18.0.0"
   languageName: unknown
   linkType: soft
 
-"double-eighteen@npm:^0.4.2":
-  version: 0.4.2
-  resolution: "double-eighteen@npm:0.4.2"
-  checksum: 10c0/0f5554212e41266c4e83ddcab072046c8867156cc3e24d7406e5a2848a3bb32401d5eabf21d24cad754bf917c1b00036e5d50080cce984ed9ca0e5be0b3cd20f
+"double-eighteen@npm:^0.5.0":
+  version: 0.5.1
+  resolution: "double-eighteen@npm:0.5.1"
+  checksum: 10c0/61afbd503d9350216a6abf0e24688af031ddfde46e45902de4b9c533df4683a8e0da0de31aade838c84f23b3fc81d5a3c7346181152e4804cb458e5711efbea5
   languageName: node
   linkType: hard
 
@@ -4255,9 +4255,9 @@ __metadata:
   linkType: hard
 
 "source-map-js@npm:>=0.6.2 <2.0.0, source-map-js@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "source-map-js@npm:1.2.1"
-  checksum: 10c0/7bda1fc4c197e3c6ff17de1b8b2c20e60af81b63a52cb32ec5a5d67a20a7d42651e2cb34ebe93833c5a2a084377e17455854fee3e21e7925c64a51b6a52b0faf
+  version: 1.2.2
+  resolution: "source-map-js@npm:1.2.2"
+  checksum: 10c0/d5d6dec62266834f83dd4f8a2606a196fb1a006ca5d53b0ef80ee513b7eba2f4e2ae241f4bc129ae7e9b80dea24f6e3d92b446b7e6e96be7653cab8888168a94
   languageName: node
   linkType: hard
 
